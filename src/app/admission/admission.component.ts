@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HostService} from '../Host-Service/host-ser';
 
 @Component({
   selector: 'app-admission',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdmissionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private hostSer:HostService) { }
 
   ngOnInit() {
   }
