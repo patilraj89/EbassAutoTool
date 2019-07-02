@@ -16,6 +16,7 @@ import { PipelineAutomationComponent } from './pipeline-automation/pipeline-auto
 import { PipelineCreationStepsComponent } from './pipeline-creation-steps/pipeline-creation-steps.component';
 import {DatePipe} from '@angular/common';
 import { ExcelService } from './ExcelService/excel-service';
+import { AdmissionComponent } from './admission/admission.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,8 +27,8 @@ import { ExcelService } from './ExcelService/excel-service';
     FooterComponent,
     CorridorComponent,
     PipelineAutomationComponent,
-    PipelineCreationStepsComponent
-    
+    PipelineCreationStepsComponent,
+    AdmissionComponent
   ],
   imports: [
     BrowserModule,
