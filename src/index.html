@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EbassAutoTool</title>
+  <base href="/">
+  <!--CSS-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="assets/bower_components/Ionicons/css/ionicons.min.css">  
+  <link rel="stylesheet" href="assets/bower_components/jvectormap/jquery-jvectormap.css">  
+  <link rel="stylesheet" href="assets/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="assets/dist/css/skins/_all-skins.min.css">  
+  <link rel="stylesheet" href="assets/dist/css/google-font.css">
+  <link rel="stylesheet" href="assets/dist/css/dataTables.bootstrap.min.css">
+
+
+  <!-- <link rel="stylesheet" href="../../bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  
+  <link rel="stylesheet" href="../../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  
+  <link rel="stylesheet" href="../../plugins/iCheck/all.css">
+  
+  <link rel="stylesheet" href="../../bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css">
+  
+  <link rel="stylesheet" href="../../plugins/timepicker/bootstrap-timepicker.min.css"> -->
+  <!-- Select2 -->
+  <link rel="stylesheet" href="assets/bower_components/select2/dist/css/select2.min.css">
+
+ <!--JQuery--> 
+<script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="assets/dist/js/adminlte.min.js"></script>
+<script src="assets/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<script src="assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/dist/js/jquery.dataTables.min.js"></script>
+<script src="assets/dist/js/dataTables.bootstrap.min.js"></script>
+<!--<script src="assets/bower_components/chart/Chart.js"></script>-->
+<!--<script src="assets/dist/js/pages/dashboard2.js"></script>-->
+<script src="assets/dist/js/demo.js"></script>
+
+<script>
+    $(function () {
+      $('#example1').DataTable()
+      $('#example2').DataTable({
+        'paging'      : true,
+        'lengthChange': false,
+        'searching'   : false,
+        'ordering'    : true,
+        'info'        : true,
+        'autoWidth'   : false
+      })
+    })
+  </script>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <ng4-loading-spinner> </ng4-loading-spinner>
+  <app-root></app-root>
+  </div>
+</body>
+</html>
